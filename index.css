@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{display:flex;
+    color: black;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+    padding: 15px 0px ;
+    text-transform: capitalize;
+    
+}
+main{display: block;
+    text-decoration: none;
+}
+.home img{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: 50px;
+}
+
+.home h1{
+    line-height: 30px;
+    font-size: xx-large;
+    left: 210px;
+    position: absolute;
+    top: 330px;
+}
+.home p{text-align: center;
+    line-height: 30px;
+    width:450px;
+    left: 30px;
+    position: absolute;
+    top:370px;
+}
+.home button{border-radius: 10px;
+    padding: 10px 15px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 8px;
+    left: 240px;
+    position: absolute;
+    top:450px;
+}
+
+.about img{width: 50%;
+    height:550px; 
+}
+.about h1{
+position: absolute;left:50%;top:140%;
+font-size: xx-large;
+
+line-height: 30px;
+}
+.about p{position: absolute;left:50%;top:150%;
+font-weight:200;
+line-height: 30px;
+}
+.about button{border-radius: 10px;
+    padding: 10px 15px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 8px;
+    left:51%;
+    position: absolute;
+    top:170%;
+}
+
+.row1{display: block;
+    position: absolute;left:5%;top:190%;
+    width:100%;
+    height: 150px;
+}
+.row1 img{align-items: center;
+    position: absolute;left:33%;top:80%;   
+}
+.row1 h1{
+    align-items: center;
+    position: absolute;left:40%;top:135%;   
+    font-size: xx-large;
+}
